@@ -1,0 +1,143 @@
+/* =====================
+   General
+===================== */
+body {
+  background-color: #F8F9FA;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+/* =====================
+   Hero Section
+===================== */
+.hero {
+  background-color: #F5F5F0;
+}
+
+.hero img {
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  display: block;
+  margin: auto;
+}
+
+.description {
+  margin-top: 35px;
+}
+
+/* =====================
+   About Section
+===================== */
+.about {
+  margin: 50px 0;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-flex img {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  display: block;
+  margin: auto;
+}
+
+.about-text {
+  width: 40%;
+}
+
+/* =====================
+   Projects Section
+===================== */
+.projects {
+  background-color: #F5F5F0;
+}
+
+.projects h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.carousel-item {
+  padding: 0 15px; 
+}
+
+.carousel-wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-wrapper img { 
+  width: 95%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10%;
+  margin: auto;
+  display: block;
+
+}
+
+/* =====================
+   Focus Areas
+===================== */
+.focus h1 {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.focus .col {
+  height: auto;
+}
+
+/* =====================
+   Contact & Footer
+===================== */
+.contact-footer {
+  background-color: #F5F5F0;
+}
+
+.contact-footer h6 {
+  padding-top: 70px;
+}
+
+/* =====================
+   Responsive Styles
+===================== */
+@media (max-width: 992px) {
+
+  /* Hero */
+  .hero .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero img {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  /* About */
+  .about-flex {
+    flex-direction: column;
+  }
+
+  .about-text {
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  /* Projects */
+  .carousel-wrapper {
+    width: 95%;
+  }
+}
