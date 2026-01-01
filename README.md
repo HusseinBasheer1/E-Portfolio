@@ -1,5 +1,5 @@
 # My E-Portfolio
-A portfolio website showcasing projects and skills using HTML, CSS, and Bootstrap.
+A portfolio website showcasing skills using HTML, CSS, and Bootstrap.
 
 ---
 
